@@ -6,7 +6,7 @@
   <meta name="keywords" content="jquery, plugins, select, split, parse, dependable, chained, cascade" />
   <meta name="description" content="" />
   <meta name="author" content="Alex Skrypnyk (alex.designworks@gmail.com)" />  
-  <!-- Styles below used for styling current page only. -->
+  <!-- Styles below are used only to style current page. -->
   <style type="text/css">
       body {
         margin-top: 1.0em;
@@ -62,7 +62,7 @@
     <p>This jQuery plugin enables splitting text values of that long list in several small Split Selects. These selects forms a hierarchy of selection and allow to select categories and subcategories in step-by-step manner.</p>
     <ol class="numbered">  
       <li>The Source Select is hidden using CSS. It is not removed from the DOM that it would be able to return a value through a form.</li>
-      <li>Initial select is split into Split Selects using specified delimiter.</li>		
+      <li>Initial select is split into Split Selects using specified delimiter.</li>    
       <li>Split Selects are shown as dependable (cascade) selects using specified jQuery plugins for visualization.</li>
       <li>Combined Split Selects text is used to set Source Text value to required one when the last Split Select option in the sequence is selected.</li>
     </ol>
@@ -130,12 +130,12 @@
   </div>  <!-- /#container -->
   
   <!-- Include jQuery -->
-	<script type="text/javascript" src="jquery-1.3.2.min.js"></script>	  
+  <script type="text/javascript" src="jquery-1.3.2.min.js"></script>    
   <!-- Include SplitSelect plugin -->
-  <script type="text/javascript" src="jquery.splitselect.js"></script>	  
-	<!-- Assign SplitSelect plugin to HTML select element using class -->
-  <script type="text/javascript">	 
-		$(document).ready(function(){
+  <script type="text/javascript" src="jquery.splitselect.js"></script>    
+  <!-- Assign SplitSelect plugin to HTML select element using class -->
+  <script type="text/javascript">   
+    $(document).ready(function(){
       
       // For the demo puposes, we are using hidesource: false 
       // to show how values are changed in sourse select.           
@@ -144,7 +144,7 @@
       });
       
     });     
-	</script>
+  </script>
 
   
 </body>
