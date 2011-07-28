@@ -1,0 +1,9 @@
+CHANGELOG file for jQuery-Plugin "SplitSelect" 
+----------------------------------------------
+
+Version: 1.0, 25/06/2010 - Initial release
+ - More than 1 Source Select is supported.
+ - Quantity of levels may be different within one Source Select.
+ - jQuery effects are used to show selection process.
+ - Selects can be either vertical or horizontal.
+ 
