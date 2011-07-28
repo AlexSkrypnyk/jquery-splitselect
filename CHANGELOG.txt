@@ -1,5 +1,8 @@
 CHANGELOG file for jQuery-Plugin "SplitSelect" 
 ----------------------------------------------
+Version: 1.1, 28/07/2011
+ - License updated
+ - test page included
 
 Version: 1.0, 25/06/2010 - Initial release
  - More than 1 Source Select is supported.
